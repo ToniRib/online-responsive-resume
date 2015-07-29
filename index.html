@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<head>
+	<!-- This tells the browser how to read the document -->
+	<meta charset="utf-8">
+
+	<!-- Tells the browser what the title of this page should be -->
+	<title>Resume</title>
+
+	<!-- Load the page styles -->
+	<link href="css/style.css" rel="stylesheet">
+	<link href="http://fonts.googleapis.com/css?family=Raleway:500,300" rel="stylesheet">
+	<link href="css/bootstrap.css" rel = "stylesheet">
+	<link href="http://weloveiconfonts.com/api/?family=zocial" rel="stylesheet">
+
+	<!-- Load jQuery -->
+	<script src="js/jQuery.js"></script>
+
+	<!-- Load helper.js -->
+	<script src="js/helper.js"></script>
+
+	<!--  Load the interactive Google Maps  -->
+	<script src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>
+
+	<!-- Get the viewport of width of the device -->
+	<meta name="viewport" content="width=device-width">
+	</head>
+<body>
+
+	<!-- Open the main container -->
+	<div id="main" class="container">
+	
+		<!-- First Row -->
+		<header class="row top-row">
+			<div id="left-header" class="col-md-8 col-sm-8 col-xs-12">
+				<div id="info"></div>
+				<!-- name, role, biopic -->
+				<div class="message"></div>
+			</div>
+			<div class="col-md-4 col-sm-4 col-xs-12 right-header">
+				<h2>Contact Me</h2><hr>
+				<ul id="topContacts" class="header-contacts"></ul>
+				<ul class="nonlink-contacts"></ul>
+			</div>
+		</header>
+
+		<!-- Second Row -->
+		<div class="row second-row">
+			<div class="skills col-md-4 col-sm-4 col-xs-2">
+				<h2>Skills</h2>
+				<div id="skills" class="skills-box"></div>
+			</div>
+			<div id = "projects" class="projects col-md-8 col-sm-8 col-xs-10">
+				<h2>Projects</h2>
+			</div>
+		</div>
+
+		<!-- Third Row -->
+		<div id="workExperience" class="gray">
+			<h2>Work Experience</h2>
+		</div>
+		<div id="education" class="gray">
+			<h2>Education</h2>
+		</div>
+		<div id="map-div">
+			<h2>Where I've Lived and Worked</h2>
+		</div>
+		<div id="lets-connect" class="dark-gray">
+			<h2 class="blue center-text">Let's Connect!</h2>
+		  <ul id="footerContacts" class="flex-box"></ul>
+		</div>
+	</div>
+
+	<!-- Load the resumeBuilder javascript file which dynamically builds
+	the webpage -->
+ 	<script src="js/resumeBuilder.js"></script>
+
+</body>
+</html>
+
+
+
+
+<!-- <div id="main" class="container">
+
+  <header class="row">
+
+    <div class="title-info col-md-8">
+      <div>
+        <div class="name"></div>
+        <div class="role"></div>
+        <div class="bio-pic"></div>
+      </div>
+      <div class="welcome-message"></div>
+    </div>
+
+    <div class="connect col-md-4">
+      <ul id="topContacts" class="flex-box"></ul>
+    </div>
+    
+  </header>
+
+  <div class="content">
+    <div class="important-content">
+      <div class="skills"></div>
+      <div class="projects"></div>
+    </div>
+    <div class="education">
+      <div class="college"></div>
+      <div class="online"></div>
+      <div class="upcoming"></div>
+    </div>
+    <div class="additional-info">
+      <div class="awards"></div>
+      <div class="lived-worked"></div>
+    </div>
+  </div>
+  <footer>
+    <div class="footerContacts"></div>
+  </footer>
+
+</div> -->
+
+

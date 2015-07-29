@@ -1,0 +1,346 @@
+/*
+Zocial
+*/
+
+.zocial-twitter:before, 
+.zocial-github:before, 
+.zocial-gmail:before, 
+.zocial-linkedin:before { 
+  font-family: 'zocial', sans-serif; 
+  margin: 5px 10px 5px 25px; 
+} 
+
+/*
+Main Page Styles
+*/
+
+body,
+div,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding:0;
+  margin:0;
+  font: normal 300 1em 'Raleway', sans-serif;
+}
+
+h1 {
+  display: inline;
+  font-weight: 500;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 24px;
+  color: #009900;
+  line-height: 29px;
+}
+
+h3 {
+  font-style: italic;
+  font-size: 20px;
+  color: #000;
+  line-height: 22px;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  line-height: 17px;
+}
+
+body {
+  background-color: white;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  padding: 10px 5%;
+}
+
+/*
+Link, Paragraph, and Image Styles
+*/
+
+p {
+  font-size: 14px;
+  color: #333;
+  line-height: 21px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  margin-top: 10px;
+  display: block;
+}
+
+img {
+  padding: 10px;
+  width: 100%;
+  max-width: 500px;
+}
+
+/*
+Span & List Styles
+*/
+
+span {
+  color: #66cccc;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/*
+Class Styles
+*/
+
+.container {
+  max-width: 900px;
+}
+
+.top-row {
+  padding: 2% 0;
+}
+
+/*.second-row {
+  background-color: #50bbbb;
+}*/
+
+.name {
+  font-size: 6em;
+  color: black;
+}
+
+.role {
+  padding: 0 10px;
+  font-size: 2em;
+  color: #00a815;
+}
+
+.message {
+  background-color: #1199c3;
+  padding: 7px;
+}
+
+.right-header {
+  background-color: #16dc2e;
+  padding: 0 15px;
+  /*max-width: 400px;*/
+}
+
+.contact-info {
+  color: #006363;
+  display: inline;
+  padding: 0 10px;
+  margin: auto;
+}
+
+.nonlink-contacts {
+  text-align: center;
+}
+
+/*.header-contacts {
+  text-align: right;
+}*/
+
+/*.projects {
+  background-color: #2ca5a5;
+}
+*/
+.blue-text {
+  color: blue;
+}
+
+.upper-text {
+  text-transform: uppercase;
+}
+
+.clear-fix {
+  overflow: auto;
+}
+
+.education-entry,
+.work-entry,
+.project-entry {
+  padding: 0 5%;
+}
+
+.date-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #999;
+  line-height: 16px;
+}
+
+.location-text {
+  font-style: italic;
+  font-size: 14px;
+  color: #999;
+  line-height: 16px;
+  float: right;
+}
+
+.desc-item {
+  padding: 2px 20px;
+  font-size: 14px;
+  list-style-type: square;
+}
+
+.welcome-message {
+  font-style: italic;
+  font-size: 14px;
+  color: white;
+  line-height: 28px;
+  padding: 5px;
+}
+
+.skills-box {
+  list-style: none;
+  padding: 0 15px;
+}
+
+.skills-list {
+  padding: 0;
+}
+
+.project-title {
+  color: #d05e00;
+  font-weight: bold;
+}
+
+/*.skills {
+  background-color: #50bbbb;
+}*/
+
+.blue {
+  background-color: #333399;
+}
+
+.yellow-text {
+  color: #ffff00;
+}
+
+.dark-hot-text {
+  font-weight: bold;
+  color: #bd0900;
+}
+
+.center-text{
+  color: #33cc00;
+}
+
+.gray {
+  background-color: #f3f3f3;
+  padding-bottom: 10px;
+  clear: both;
+}
+
+.dark-gray {
+  background-color: #4a4a4a;
+}
+
+.flex-box {
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.center-content {
+  padding: 2.5% 5%;
+}
+
+.biopic {
+  float: left;
+  padding: 10px;
+  width: 200px;
+  display: none;
+}
+
+#lets-connect {
+  text-align: center;
+}
+
+.small-link {
+  font-size: 16px;
+}
+
+.font-heavy {
+  font-weight: 500;
+}
+
+/*
+Map Styles
+*/
+
+#map {
+  display: block;
+  height: 100%;
+  margin: 0 5%;
+}
+
+#map-div {
+  height: 400px;
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+/*
+Media queries to handle various device widths
+*/
+
+/*@media only screen and (max-width: 1024px) {
+  #lets-connect {
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (max-width:900px) {
+  .biopic {
+    width: 175px;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  #lets-connect {
+    margin-top: 10%;
+  }
+
+  .biopic {
+    width: 150px;
+  }
+
+  .welcome-message {
+    display: none;
+  }
+
+  #skills {
+    display: flex;
+  }
+
+  .header-contacts {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+}*/
+
+@media only screen and (max-width: 750px) {
+  .header-contacts {
+    text-align: center;
+  }
+}
