@@ -343,4 +343,17 @@ Media queries to handle various device widths
   .header-contacts {
     text-align: center;
   }
+
+  .progress {
+    display: none;
+  }
+
+  .skills-box {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .skills-list {
+    margin: 0 25px;
+  }
 }

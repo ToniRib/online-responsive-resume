@@ -9,12 +9,12 @@ var bio = {
 		"twitter": "tonimarierib",
 		"location": "Denver, CO",
 		"linkedin": "ToniRib"},
-	"welcomeMessage": "Aspiring web developer with a passion for bold designs. Leaving the space industry for a better future  in web development.",
+	"welcomeMessage": "Aspiring web developer with a passion for bold designs. Leaving the space industry for a better future in web development.",
 	"skills": [
-		["HTML", "80"], 
-		["CSS", "80"], 
-		["JavaScript", "70"], 
-		["Git", "60"], 
+		["HTML", "80"],
+		["CSS", "80"],
+		["JavaScript", "70"],
+		["Git", "60"],
 		["GitHub", "50"]],
 	"bioPic": "images/key-profile.jpg"
 };
@@ -45,9 +45,9 @@ bio.display = function() {
 
 		for (var i = 0; i < bio.skills.length; i++) {
 			var formattedSkill = HTMLskills.replace('%data%', bio.skills[i][0]);
-			var formattedProgress = HTMLprogress.replace('data', bio.skills[i][1]);
+			var formattedProgress = HTMLprogress.replace('%data%', bio.skills[i][1]);
 			$('#skills').append(formattedSkill);
-			$('#skills').append(HTMLprogress);
+			$('#skills').append(formattedProgress);
 		}
 	}
 

@@ -17,7 +17,7 @@ var HTMLwelcomeMsg = '<span class="welcome-message">%data%</span>';
 
 var HTMLskills = '<li class="skills-list"><span class="dark-hot-text">%data%</span></li>';
 var HTMLprogress = '<div class="progress"><div class="progress-bar progress-bar-success" role="progressbar"' +
-                    'aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:data%"></div></div>'
+                    'aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:%data%%"></div></div>';
 
 var HTMLworkStart = '<div class="work-entry"></div>';
 var HTMLworkEmployer = '<a href="#">%data%';
