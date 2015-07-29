@@ -2,13 +2,13 @@
 Zocial
 */
 
-.zocial-twitter:before, 
-.zocial-github:before, 
-.zocial-gmail:before, 
-.zocial-linkedin:before { 
-  font-family: 'zocial', sans-serif; 
-  margin: 5px 10px 5px 25px; 
-} 
+.zocial-twitter:before,
+.zocial-github:before,
+.zocial-gmail:before,
+.zocial-linkedin:before {
+  font-family: 'zocial', sans-serif;
+  margin: 5px 10px 5px 0;
+}
 
 /*
 Main Page Styles
@@ -103,20 +103,21 @@ ul {
 }
 
 /*
-Class Styles
+Class Styles (in order of HTML)
 */
 
 .container {
   max-width: 900px;
 }
 
+.key-logo {
+  margin: auto;
+  display: block;
+}
+
 .top-row {
   padding: 2% 0;
 }
-
-/*.second-row {
-  background-color: #50bbbb;
-}*/
 
 .name {
   font-size: 6em;
@@ -132,19 +133,18 @@ Class Styles
 .message {
   background-color: #1199c3;
   padding: 7px;
+  margin: 10px;
 }
 
 .right-header {
   background-color: #16dc2e;
-  padding: 0 15px;
-  /*max-width: 400px;*/
+  padding: 0 0 8px 0;
 }
 
 .contact-info {
   color: #006363;
   display: inline;
   padding: 0 10px;
-  margin: auto;
 }
 
 .nonlink-contacts {
@@ -339,7 +339,7 @@ Media queries to handle various device widths
 
 }*/
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 767px) {
   .header-contacts {
     text-align: center;
   }
