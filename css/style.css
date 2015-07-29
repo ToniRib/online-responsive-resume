@@ -354,6 +354,10 @@ Media queries to handle various device widths
   }
 
   .skills-list {
-    margin: 0 25px;
+    margin: 0 25px 10px 25px;
+  }
+
+  .projects {
+    background-color: #f3f3f3;
   }
 }
