@@ -6,8 +6,8 @@ Zocial
 .zocial-github:before,
 .zocial-gmail:before,
 .zocial-linkedin:before {
-  font-family: 'zocial', sans-serif;
-  margin: 5px 10px 5px 0;
+	font-family: 'zocial', sans-serif;
+	margin: 5px 10px 5px 0;
 }
 
 /* entypo */
@@ -19,8 +19,8 @@ Zocial
 .entypo-briefcase:before,
 .entypo-book:before,
 .entypo-trophy:before {
-  font-family: 'entypo', sans-serif;
-  margin: 5px 10px 5px 0;
+	font-family: 'entypo', sans-serif;
+	margin: 5px 10px 5px 0;
 }
 
 /*
@@ -38,45 +38,45 @@ h3,
 h4,
 h5,
 h6 {
-  padding:0;
-  margin:0;
-  font: normal 300 1em 'Raleway', sans-serif;
+	padding:0;
+	margin:0;
+	font: normal 300 1em 'Raleway', sans-serif;
 }
 
 h1 {
-  display: inline;
-  font-weight: 500;
+	display: inline;
+	font-weight: 500;
 }
 
 h2 {
-  font-weight: bold;
-  font-size: 26px;
-  color: black;
-  line-height: 29px;
+	font-weight: bold;
+	font-size: 26px;
+	color: black;
+	line-height: 29px;
 }
 
 h3 {
-  font-size: 16px;
-  font-weight: bold;
-  color: black;
+	font-size: 16px;
+	font-weight: bold;
+	color: black;
 }
 
 h4 {
-  font-weight: bold;
-  font-size: 14px;
-  color: white;
-  line-height: 17px;
+	font-weight: bold;
+	font-size: 14px;
+	color: white;
+	line-height: 17px;
 }
 
 body {
-  background-color: white;
+	background-color: white;
 }
 
 h2,
 h3,
 h4,
 h5 {
-  padding: 10px 5% 2px 5%;
+	padding: 10px 5% 2px 5%;
 }
 
 /*
@@ -84,22 +84,22 @@ Link, Paragraph, and Image Styles
 */
 
 p {
-  font-size: 14px;
-  color: #333;
-  line-height: 21px;
+	font-size: 14px;
+	color: #333;
+	line-height: 21px;
 }
 
 a {
-  color: black;
-  text-decoration: none;
-  margin-top: 10px;
-  display: block;
+	color: black;
+	text-decoration: none;
+	margin-top: 10px;
+	display: block;
 }
 
 img {
-  padding: 10px;
-  width: 100%;
-  max-width: 500px;
+	padding: 10px;
+	width: 100%;
+	max-width: 500px;
 }
 
 /*
@@ -107,11 +107,11 @@ Span & List Styles
 */
 
 span {
-  color: #66cccc;
+	color: #66cccc;
 }
 
 ul {
-  list-style-type: none;
+	list-style-type: none;
 }
 
 /*
@@ -119,100 +119,101 @@ CLASS STYLES (in order of HTML)
 */
 
 .container {
-  max-width: 900px;
+	max-width: 900px;
 }
 
 /* Logo Row */
 
 .key-logo {
-  margin: auto;
-  display: block;
+	margin: auto;
+	display: block;
 }
 
 /* First Row */
 
 .top-row {
-  padding: 2% 0;
+	padding: 2% 0;
 }
 
 .name {
-  font-size: 6em;
-  color: black;
+	font-size: 6em;
+	color: black;
 }
 
 .upper-text {
-  text-transform: uppercase;
+	text-transform: uppercase;
 }
 
 .role {
-  padding: 0 10px;
-  font-size: 2em;
-  color: #00a815;
+	padding: 0 10px;
+	font-size: 2em;
+	color: #00a815;
 }
 
 .message {
-  background-color: #1199c3;
-  padding: 7px;
-  margin: 10px;
+	background-color: #1199c3;
+	padding: 7px;
+	margin: 10px;
 }
 
 .right-header {
-  background-color: #16dc2e;
-  padding: 0 0 8px 0;
+	background-color: #16dc2e;
+	padding: 0 0 8px 0;
 }
 
 .contact-info {
-  color: #006363;
-  display: inline;
-  padding: 0 10px;
+	color: #006363;
+	display: inline;
+	padding: 0 10px;
 }
 
 .nonlink-contacts {
-  text-align: center;
+	text-align: center;
+	margin: 10px;
 }
 
 /* Second Row - Skills & Projects */
 
 .black {
-  background-color: black;
-  height: 1px;
+	background-color: black;
+	height: 1px;
 }
 
 /* Third Row - Work */
 
 .work-title {
-  font-weight: bold;
-  color: #1199c3;
+	font-weight: bold;
+	color: #1199c3;
 }
 
 .work-bullets {
-  margin: 0 25px;
+	margin: 0 25px;
 }
 
 /* Fourth Row - Education */
 
 .flexbox {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  overflow: hidden;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	overflow: hidden;
 }
 
 .flexbox,
 .education-box {
-  flex: 1;
+	flex: 1;
 }
 
 .completed-edu {
-  background-color: #68e978;
+	background-color: #68e978;
 }
 
 .current-edu {
-  background-color: #61d3d8;
+	background-color: #61d3d8;
 }
 
 .future-edu {
-  background-color: #ff7972;
+	background-color: #ff7972;
 }
 
 
@@ -221,134 +222,107 @@ CLASS STYLES (in order of HTML)
 /* Sixth Row */
 
 .blue-text {
-  color: blue;
+	color: blue;
 }
 
 .clear-fix {
-  overflow: auto;
+	overflow: auto;
 }
 
 .education-entry,
 .work-entry,
 .project-entry {
-  padding: 0 5%;
+	padding: 0 5%;
 }
 
 .date-text {
-  font-style: italic;
-  font-size: 14px;
-  color: #808080;
-  line-height: 16px;
+	font-style: italic;
+	font-size: 14px;
+	color: #808080;
+	line-height: 16px;
 }
 
 .location-text {
-  font-style: italic;
-  font-size: 14px;
-  color: #999;
-  line-height: 16px;
+	font-style: italic;
+	font-size: 14px;
+	color: #999;
+	line-height: 16px;
 }
 
 .desc-item {
-  padding: 2px 20px;
-  font-size: 14px;
-  list-style-type: square;
+	padding: 2px 20px;
+	font-size: 14px;
+	list-style-type: square;
 }
 
 .welcome-message {
-  font-style: italic;
-  font-size: 14px;
-  color: white;
-  line-height: 28px;
-  padding: 5px;
+	font-style: italic;
+	font-size: 14px;
+	color: white;
+	line-height: 28px;
+	padding: 5px;
 }
 
 .skills-box {
-  list-style: none;
-  padding: 0 15px;
+	list-style: none;
+	padding: 0 15px;
 }
 
 .skills-list {
-  padding: 0;
+	padding: 0;
 }
 
 .project-title {
-  color: #d05e00;
-  font-weight: bold;
+	color: #d05e00;
+	font-weight: bold;
 }
 
 .blue {
-  background-color: #333399;
+	background-color: #333399;
 }
 
 .yellow-text {
-  color: #ffff00;
+	color: #ffff00;
 }
 
 .dark-hot-text {
-  font-weight: bold;
-  color: #bd0900;
+	font-weight: bold;
+	color: #bd0900;
 }
 
 .center-text{
-  color: #33cc00;
+	color: #33cc00;
 }
 
 .work-experience {
-  background-color: #add8e6;
-  padding: 10px 0;
-  clear: both;
+	background-color: #add8e6;
+	padding: 10px 0;
+	clear: both;
 }
 
 .dark-gray {
-  background-color: #4a4a4a;
+	background-color: #4a4a4a;
 }
 
 .flex-box {
-  display: -webkit-flex;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  padding: 10px;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 10px;
 }
 
 .center-content {
-  padding: 2.5% 5%;
+	padding: 2.5% 5%;
 }
-
-.biopic {
-  float: left;
-  padding: 10px;
-  width: 200px;
-  display: none;
-}
-
-/*#lets-connect {
-  text-align: center;
-}*/
 
 .small-link {
-  font-size: 16px;
+	font-size: 16px;
 }
 
 .font-heavy {
-  font-weight: 500;
-}
-
-/*
-Map Styles
-*/
-
-#map {
-  display: block;
-  height: 100%;
-  margin: 0 5%;
-}
-
-#map-div {
-  height: 400px;
-  width: 100%;
-  padding-bottom: 5%;
+	font-weight: 500;
 }
 
 /*
@@ -356,66 +330,74 @@ Media queries to handle various device widths
 */
 
 /*@media only screen and (max-width: 1024px) {
-  #lets-connect {
-    margin-top: 5%;
-  }
+	#lets-connect {
+		margin-top: 5%;
+	}
 }
 
 @media only screen and (max-width:900px) {
-  .biopic {
-    width: 175px;
-  }
+	.biopic {
+		width: 175px;
+	}
 }
 
 @media only screen and (max-width: 750px) {
-  #lets-connect {
-    margin-top: 10%;
-  }
+	#lets-connect {
+		margin-top: 10%;
+	}
 
-  .biopic {
-    width: 150px;
-  }
+	.biopic {
+		width: 150px;
+	}
 
-  .welcome-message {
-    display: none;
-  }
+	.welcome-message {
+		display: none;
+	}
 
-  #skills {
-    display: flex;
-  }
+	#skills {
+		display: flex;
+	}
 
-  .header-contacts {
-    display: flex;
-    flex-wrap: wrap;
-  }
+	.header-contacts {
+		display: flex;
+		flex-wrap: wrap;
+	}
 
 }*/
 
 @media only screen and (max-width: 767px) {
-  .header-contacts,
-  .contact-title {
-    text-align: center;
-  }
+	.header-contacts,
+	.contact-title {
+		text-align: center;
+	}
 
-  .progress {
-    display: none;
-  }
+	.progress {
+		display: none;
+	}
 
-  .skills-box {
-    display: flex;
-    flex-wrap: wrap;
-  }
+	.skills-box {
+		display: flex;
+		flex-wrap: wrap;
+	}
 
-  .skills-list {
-    margin: 0 25px 10px 25px;
-  }
+	.skills-list {
+		margin: 0 25px 10px 25px;
+	}
 
-  .projects {
-    background-color: #f3f3f3;
-  }
+	.projects {
+		background-color: #f3f3f3;
+	}
 
-  .flexbox {
-    display: block;
-  }
+	.flexbox {
+		display: block;
+	}
+
+	.name {
+		font-size: 4em;
+	}
+
+	.role {
+		font-size: 1.5em;
+	}
 
 }
