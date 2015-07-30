@@ -10,6 +10,19 @@ Zocial
   margin: 5px 10px 5px 0;
 }
 
+/* entypo */
+.entypo-plus:before,
+.entypo-home:before,
+.entypo-phone:before,
+.entypo-rocket:before,
+.entypo-star:before,
+.entypo-briefcase:before,
+.entypo-book:before,
+.entypo-trophy:before {
+  font-family: 'entypo', sans-serif;
+  margin: 5px 10px 5px 0;
+}
+
 /*
 Main Page Styles
 */
@@ -37,16 +50,15 @@ h1 {
 
 h2 {
   font-weight: bold;
-  font-size: 24px;
-  color: #009900;
+  font-size: 26px;
+  color: black;
   line-height: 29px;
 }
 
 h3 {
-  font-style: italic;
-  font-size: 20px;
-  color: #000;
-  line-height: 22px;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
 }
 
 h4 {
@@ -64,7 +76,7 @@ h2,
 h3,
 h4,
 h5 {
-  padding: 10px 5%;
+  padding: 10px 5% 2px 5%;
 }
 
 /*
@@ -103,17 +115,21 @@ ul {
 }
 
 /*
-Class Styles (in order of HTML)
+CLASS STYLES (in order of HTML)
 */
 
 .container {
   max-width: 900px;
 }
 
+/* Logo Row */
+
 .key-logo {
   margin: auto;
   display: block;
 }
+
+/* First Row */
 
 .top-row {
   padding: 2% 0;
@@ -122,6 +138,10 @@ Class Styles (in order of HTML)
 .name {
   font-size: 6em;
   color: black;
+}
+
+.upper-text {
+  text-transform: uppercase;
 }
 
 .role {
@@ -151,20 +171,57 @@ Class Styles (in order of HTML)
   text-align: center;
 }
 
-/*.header-contacts {
-  text-align: right;
-}*/
+/* Second Row - Skills & Projects */
 
-/*.projects {
-  background-color: #2ca5a5;
+.black {
+  background-color: black;
+  height: 1px;
 }
-*/
+
+/* Third Row - Work */
+
+.work-title {
+  font-weight: bold;
+  color: #1199c3;
+}
+
+.work-bullets {
+  margin: 0 25px;
+}
+
+/* Fourth Row - Education */
+
+.flexbox {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+}
+
+.flexbox,
+.education-box {
+  flex: 1;
+}
+
+.completed-edu {
+  background-color: #68e978;
+}
+
+.current-edu {
+  background-color: #61d3d8;
+}
+
+.future-edu {
+  background-color: #ff7972;
+}
+
+
+/* Fifth Row */
+
+/* Sixth Row */
+
 .blue-text {
   color: blue;
-}
-
-.upper-text {
-  text-transform: uppercase;
 }
 
 .clear-fix {
@@ -180,7 +237,7 @@ Class Styles (in order of HTML)
 .date-text {
   font-style: italic;
   font-size: 14px;
-  color: #999;
+  color: #808080;
   line-height: 16px;
 }
 
@@ -189,7 +246,6 @@ Class Styles (in order of HTML)
   font-size: 14px;
   color: #999;
   line-height: 16px;
-  float: right;
 }
 
 .desc-item {
@@ -220,10 +276,6 @@ Class Styles (in order of HTML)
   font-weight: bold;
 }
 
-/*.skills {
-  background-color: #50bbbb;
-}*/
-
 .blue {
   background-color: #333399;
 }
@@ -241,9 +293,9 @@ Class Styles (in order of HTML)
   color: #33cc00;
 }
 
-.gray {
-  background-color: #f3f3f3;
-  padding-bottom: 10px;
+.work-experience {
+  background-color: #add8e6;
+  padding: 10px 0;
   clear: both;
 }
 
@@ -271,9 +323,9 @@ Class Styles (in order of HTML)
   display: none;
 }
 
-#lets-connect {
+/*#lets-connect {
   text-align: center;
-}
+}*/
 
 .small-link {
   font-size: 16px;
@@ -340,7 +392,8 @@ Media queries to handle various device widths
 }*/
 
 @media only screen and (max-width: 767px) {
-  .header-contacts {
+  .header-contacts,
+  .contact-title {
     text-align: center;
   }
 
@@ -360,4 +413,9 @@ Media queries to handle various device widths
   .projects {
     background-color: #f3f3f3;
   }
+
+  .flexbox {
+    display: block;
+  }
+
 }

@@ -12,15 +12,7 @@
 	<link href="http://fonts.googleapis.com/css?family=Raleway:500,300" rel="stylesheet">
 	<link href="css/bootstrap.css" rel = "stylesheet">
 	<link href="http://weloveiconfonts.com/api/?family=zocial" rel="stylesheet">
-
-	<!-- Load jQuery -->
-	<script src="js/jQuery.js"></script>
-
-	<!-- Load helper.js -->
-	<script src="js/helper.js"></script>
-
-	<!--  Load the interactive Google Maps  -->
-	<script src="http://maps.googleapis.com/maps/api/js?libraries=places"></script>
+	<link href="http://weloveiconfonts.com/api/?family=entypo" rel="stylesheet">
 
 	<!-- Get the viewport of width of the device -->
 	<meta name="viewport" content="width=device-width">
@@ -37,93 +29,210 @@
 
 		<!-- First Row -->
 		<header class="row top-row">
+			<!-- Left-Side -->
 			<div id="left-header" class="col-md-8 col-sm-8 col-xs-12">
-				<div id="info"></div>
-				<!-- name, role, biopic -->
-				<div class="message"></div>
+				<div id="info">
+					<h1 class="name upper-text"><b>Toni</b> Rib</h1>
+					<h4 class="role">Front-End Web Developer</h4>
+				</div>
+				
+				<div class="message">
+					<span class="welcome-message">
+						Aspiring web developer with a passion for bold designs. Prior experience as an engineer in the satellite industry.
+					</span>
+				</div>
 			</div>
+			<!-- Right-Side -->
 			<div class="col-md-4 col-sm-4 col-xs-12 right-header">
-				<h2>Contact Me</h2><hr>
-				<ul id="topContacts" class="header-contacts"></ul>
-				<ul class="nonlink-contacts"></ul>
+				<h2 class="contact-title entypo-plus">Contact Me</h2><hr>
+				<ul id="topContacts" class="header-contacts">
+					<a class="zocial-linkedin" href="http://linkedin.com/in/ToniRib">ToniRib</a>
+					<a class="zocial-github" href="http://github.com/tonirib">tonirib</a>
+					<a class="zocial-twitter" href="http://twitter.com/tonimarierib">tonimarierib</a>
+					<a class="zocial-gmail" href="mailto:tonimarierib@gmail.com">tonimarierib@gmail.com</a>
+				</ul>
+				<ul class="nonlink-contacts">
+					<p class="contact-info entypo-home">Denver, CO</p>
+					<p class="contact-info entypo-phone">612-670-6397</p>
+				</ul>
 			</div>
 		</header>
 
 		<!-- Second Row -->
 		<div class="row second-row">
+			<!-- Skills -->
 			<div class="skills col-md-4 col-sm-4 col-xs-12">
-				<h2>Skills</h2>
-				<div id="skills" class="skills-box"></div>
+				<h2 class="entypo-rocket">Skills</h2><hr class="black">
+				<div class="skills-box">
+
+					<!-- HTML -->
+					<li class="skills-list">
+						<span class="dark-hot-text">HTML</span>
+					</li>
+					<div class="progress">
+						<div class="progress-bar progress-bar-success" style="width:90%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="40" role="progressbar"></div>
+					</div>
+
+					<!-- CSS -->
+					<li class="skills-list">
+						<span class="dark-hot-text">CSS</span>
+					</li>
+					<div class="progress">
+						<div class="progress-bar progress-bar-success" style="width:80%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="40" role="progressbar"></div>
+					</div>
+
+					<!-- JavaScript -->
+					<li class="skills-list">
+						<span class="dark-hot-text">JavaScript</span>
+					</li>
+					<div class="progress">
+						<div class="progress-bar progress-bar-success" style="width:75%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="40" role="progressbar"></div>
+					</div>
+
+					<!-- Git/GitHub -->
+					<li class="skills-list">
+						<span class="dark-hot-text">Git/GitHub</span>
+					</li>
+					<div class="progress">
+						<div class="progress-bar progress-bar-success" style="width:80%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="40" role="progressbar"></div>
+					</div>
+
+					<!-- Ruby -->
+					<li class="skills-list">
+						<span class="dark-hot-text">Ruby</span>
+					</li>
+					<div class="progress">
+						<div class="progress-bar progress-bar-success" style="width:30%" aria-valuemax="100" aria-valuemin="0" aria-valuenow="40" role="progressbar"></div>
+					</div>
+				</div>
 			</div>
-			<div id = "projects" class="projects col-md-8 col-sm-8 col-xs-12">
-				<h2>Projects</h2>
+
+			<!-- Projects -->
+			<div class="projects col-md-8 col-sm-8 col-xs-12">
+				<h2 class="entypo-star">Projects</h2><hr class="black">
+
+				<!-- Arcade Game -->
+				<div class="project-entry">
+					<a class="project-title" href="http://tonirib.github.io/frontend-nanodegree-arcade-game">Save the Kitties Arcade Game</a>
+					<div class="date-text">July 2015</div>
+					<p>Frogger style arcade game created for Udacity's Front End Web Development Nanodegree.</p>
+				</div>
+
+				<!-- JS/jQuery Responsive Resume -->
+				<div class="project-entry">
+					<a class="project-title" href="http://tonirib.github.io/frontend-nanodegree-resume">JavaScript/jQuery Online Resume</a>
+					<div class="date-text">June 2015</div>
+					<p>Online resume created using Javascript and jQuery to interactively populate elements of the page. Created for Udacity's Front End Web Development Nanodegree.</p>
+				</div>
 			</div>
 		</div>
+
 
 		<!-- Third Row -->
-		<div id="workExperience" class="gray">
-			<h2>Work Experience</h2>
-		</div>
-		<div id="education" class="gray">
-			<h2>Education</h2>
-		</div>
-		<div id="map-div">
-			<h2>Where I've Lived and Worked</h2>
-		</div>
-		<div id="lets-connect" class="dark-gray">
-			<h2 class="blue center-text">Let's Connect!</h2>
-		  <ul id="footerContacts" class="flex-box"></ul>
-		</div>
-	</div>
+		<div class="row third-row">
+			<!-- Work Experience -->
+			<div class="work-experience">
+				<h2 class="entypo-briefcase">Work Experience</h2><hr class="black">
 
-	<!-- Load the resumeBuilder javascript file which dynamically builds
-	the webpage -->
- 	<script src="js/resumeBuilder.js"></script>
+				<!-- Raytheon - Senior Systems Engineer -->
+				<div class="work-entry">
+					<a href="http://www.raytheon.com/capabilities/products/jpss/" class="work-title">Raytheon - Senior Systems Engineer</a>
+					<div class="date-text">August 2014 - present</div>
+					<div class="location-text">Aurora, CO</div>
+					<ul class="work-bullets">
+						<li class="desc-item">Program technical lead for the Space Link Extension protocol</li>
+						<li class="desc-item">Technical lead for approved engineering estimate worth approximately $750k</li>
+						<li class="desc-item">Led integration checkout for Space Link Extension non-nominal functionality</li>
+						<li class="desc-item">Manage and verify requirements for science mission data on the Joint Polar Satellite System Common Ground System program</li>
+						<li class="desc-item">Design and execute software tests to verify requirements</li>
+					</ul>
+				</div>
+
+				<!-- Raytheon - Safety Engineer -->
+				<div class="work-entry">
+					<a href="http://www.raytheon.com/capabilities/products/jpss/" class="work-title">Raytheon - System and Software Safety Engineer</a>
+					<div class="date-text">June 2013 - August 2014</div>
+					<div class="location-text">Aurora, CO</div>
+					<ul class="work-bullets">
+						<li class="desc-item">Ensure the safety of the system by identifying hazards and implementing appropriate controls</li>
+						<li class="desc-item">Chaired the System Safety Review Board</li>
+						<li class="desc-item">Perform site safety assessments during hardware installations</li>
+					</ul>
+				</div>
+
+				<!-- Boeing - Quality Engineer -->
+				<div class="work-entry">
+					<a href="http://www.boeing.com/space/" class="work-title">Boeing - Quality Engineer</a>
+					<div class="date-text">October 2011 - May 2013</div>
+					<div class="location-text">El Segundo, CA</div>
+					<ul class="work-bullets">
+						<li class="desc-item">Provide quailty metrics, nonconformance management, corrective action suport, test and area surveillance, and production support to satellite bus products laboratories</li>
+						<li class="desc-item">Site administrator for online quality checklist system</li>
+						<li class="desc-item">Boeing Best Practice site focal and Lean Manufacturing focal for the Manufacturing Self Examination initiative</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- Fourth Row -->
+		<div class="row fourth-row">
+			<!-- Education -->
+			<h2 class="entypo-book">Education</h2><hr class="black">
+			<div class="gray flexbox">
+
+				<!-- Completed Education -->
+				<div class="education-box completed-edu col-md-4 col-sm-4 col-xs-12">
+					<h3>Completed Education</h3>
+					<div class="education-entry">
+						<a href="http://astronautics.usc.edu/">University of Southern California</a>
+						<div class="date-text">May 2011</div>
+						<div class="location-text">Los Angeles, CA</div>
+						<p>Major: Astronautical Engineering</p>
+					</div>
+				</div>
+
+				<!-- Current Education -->
+				<div class="education-box current-edu col-md-4 col-sm-4 col-xs-12">
+					<h3>In-Progress Education</h3>
+					<div class="education-entry">
+						<a href="http://www.udacity.com">Udacity</a>
+						<div class="date-text">Started June 2015</div>
+						<div class="location-text">Online</div>
+						<p>Front End Web Development Nanodegree</p>
+					</div>
+				</div>
+
+				<!-- Future Education -->
+				<div class="education-box future-edu col-md-4 col-sm-4 col-xs-12">
+					<h3>Future Education</h3>
+					<div class="education-entry">
+						<a href="http://www.turing.io">Turing School of Software and Design</a>
+						<div class="date-text">October 2015 - May 2016</div>
+						<div class="location-text">Denver, CO</div>
+						<p>Full Stack Web Development</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Fifth Row -->
+		<div class="row fifth-row">
+			
+			<!-- Awards -->
+			<div class="awards col-md-12 col-sm-12 col-xs-12">
+				<h2 class="entypo-trophy">Awards and Recognition</h2>
+				<ul class="awards-list">
+					<li class="award-entry">Raytheon Team Achievement Award</li>
+					<li class="award-entry">Raytheon Individual Achievement Award</li>
+					<li class="award-entry">Raytheon Individual Achievement Award</li>
+					<li class="award-entry">Raytheon Shining Star Award</li>
+					<li class="award-entry">USC Dept. of Astronautical Engineering Ad Astra Award</li>
+				</ul>
+			</div>
+
+		</div>
+		
+	</div>
 
 </body>
 </html>
-
-
-
-
-<!-- <div id="main" class="container">
-
-  <header class="row">
-
-    <div class="title-info col-md-8">
-      <div>
-        <div class="name"></div>
-        <div class="role"></div>
-        <div class="bio-pic"></div>
-      </div>
-      <div class="welcome-message"></div>
-    </div>
-
-    <div class="connect col-md-4">
-      <ul id="topContacts" class="flex-box"></ul>
-    </div>
-
-  </header>
-
-  <div class="content">
-    <div class="important-content">
-      <div class="skills"></div>
-      <div class="projects"></div>
-    </div>
-    <div class="education">
-      <div class="college"></div>
-      <div class="online"></div>
-      <div class="upcoming"></div>
-    </div>
-    <div class="additional-info">
-      <div class="awards"></div>
-      <div class="lived-worked"></div>
-    </div>
-  </div>
-  <footer>
-    <div class="footerContacts"></div>
-  </footer>
-
-</div> -->
-
-
