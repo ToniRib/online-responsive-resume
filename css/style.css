@@ -18,7 +18,10 @@ Zocial
 .entypo-star:before,
 .entypo-briefcase:before,
 .entypo-book:before,
-.entypo-trophy:before {
+.entypo-trophy:before,
+.entypo-check:before,
+.entypo-hourglass:before,
+.entypo-calendar:before {
 	font-family: 'entypo', sans-serif;
 	margin: 5px 10px 5px 0;
 }
@@ -159,17 +162,26 @@ CLASS STYLES (in order of HTML)
 .right-header {
 	background-color: #16dc2e;
 	padding: 0 0 8px 0;
+	margin: 31px 0 0 0;
 }
 
 .contact-info {
 	color: #006363;
 	display: inline;
-	padding: 0 10px;
+	padding: 0 8px;
 }
 
 .nonlink-contacts {
 	text-align: center;
 	margin: 10px;
+}
+
+.welcome-message {
+	font-style: italic;
+	font-size: 14px;
+	color: white;
+	line-height: 28px;
+	padding: 5px;
 }
 
 /* Second Row - Skills & Projects */
@@ -179,18 +191,52 @@ CLASS STYLES (in order of HTML)
 	height: 1px;
 }
 
+.second-row {
+	margin: 10px 0;
+}
+
+.skills-box {
+	list-style: none;
+	padding: 0 15px;
+}
+
+.skills-list {
+	padding: 0;
+}
+
+.project-title {
+	color: #d05e00;
+	font-weight: bold;
+}
+
 /* Third Row - Work */
 
 .work-title {
 	font-weight: bold;
 	color: #1199c3;
+	font-size: 1.1em;
 }
 
 .work-bullets {
-	margin: 0 25px;
+	margin: 0 0 0 25px;
+}
+
+.work-experience {
+	padding: 10px 5%;
+	clear: both;
+}
+
+.school-name {
+	margin: 2px 0;
+	font-weight: bold;
 }
 
 /* Fourth Row - Education */
+
+.education {
+	padding: 10px 5%;
+	clear: both;
+}
 
 .flexbox {
 	display: -webkit-flex;
@@ -204,22 +250,19 @@ CLASS STYLES (in order of HTML)
 	flex: 1;
 }
 
-.completed-edu {
-	background-color: #68e978;
-}
-
-.current-edu {
-	background-color: #61d3d8;
-}
-
-.future-edu {
-	background-color: #ff7972;
+.edu-title {
+	color: #66cc33;
 }
 
 
-/* Fifth Row */
+/* Fifth Row - Awards */
 
-/* Sixth Row */
+.awards-list {
+	padding: 10px 5%;
+	clear: both;
+}
+
+/* General */
 
 .blue-text {
 	color: blue;
@@ -237,14 +280,14 @@ CLASS STYLES (in order of HTML)
 
 .date-text {
 	font-style: italic;
-	font-size: 14px;
+	font-size: 13px;
 	color: #808080;
 	line-height: 16px;
 }
 
 .location-text {
 	font-style: italic;
-	font-size: 14px;
+	font-size: 13px;
 	color: #999;
 	line-height: 16px;
 }
@@ -253,28 +296,6 @@ CLASS STYLES (in order of HTML)
 	padding: 2px 20px;
 	font-size: 14px;
 	list-style-type: square;
-}
-
-.welcome-message {
-	font-style: italic;
-	font-size: 14px;
-	color: white;
-	line-height: 28px;
-	padding: 5px;
-}
-
-.skills-box {
-	list-style: none;
-	padding: 0 15px;
-}
-
-.skills-list {
-	padding: 0;
-}
-
-.project-title {
-	color: #d05e00;
-	font-weight: bold;
 }
 
 .blue {
@@ -294,81 +315,28 @@ CLASS STYLES (in order of HTML)
 	color: #33cc00;
 }
 
-.work-experience {
-	background-color: #add8e6;
-	padding: 10px 0;
-	clear: both;
-}
-
 .dark-gray {
 	background-color: #4a4a4a;
-}
-
-.flex-box {
-	display: -webkit-flex;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	padding: 10px;
-}
-
-.center-content {
-	padding: 2.5% 5%;
-}
-
-.small-link {
-	font-size: 16px;
-}
-
-.font-heavy {
-	font-weight: 500;
 }
 
 /*
 Media queries to handle various device widths
 */
 
-/*@media only screen and (max-width: 1024px) {
-	#lets-connect {
-		margin-top: 5%;
+@media only screen and (max-width: 991px) {
+	.contact-info {
+		display: block;
 	}
 }
-
-@media only screen and (max-width:900px) {
-	.biopic {
-		width: 175px;
-	}
-}
-
-@media only screen and (max-width: 750px) {
-	#lets-connect {
-		margin-top: 10%;
-	}
-
-	.biopic {
-		width: 150px;
-	}
-
-	.welcome-message {
-		display: none;
-	}
-
-	#skills {
-		display: flex;
-	}
-
-	.header-contacts {
-		display: flex;
-		flex-wrap: wrap;
-	}
-
-}*/
 
 @media only screen and (max-width: 767px) {
 	.header-contacts,
 	.contact-title {
 		text-align: center;
+	}
+
+	.contact-info {
+		display: inline;
 	}
 
 	.progress {
@@ -378,14 +346,11 @@ Media queries to handle various device widths
 	.skills-box {
 		display: flex;
 		flex-wrap: wrap;
+		margin: 10px 0;
 	}
 
 	.skills-list {
 		margin: 0 25px 10px 25px;
-	}
-
-	.projects {
-		background-color: #f3f3f3;
 	}
 
 	.flexbox {
@@ -398,6 +363,10 @@ Media queries to handle various device widths
 
 	.role {
 		font-size: 1.5em;
+	}
+
+	.education-box {
+		margin: 5px 0;
 	}
 
 }
