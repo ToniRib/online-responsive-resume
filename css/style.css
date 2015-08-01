@@ -257,6 +257,11 @@ CLASS STYLES (in order of HTML)
 
 /* Fifth Row - Awards */
 
+.awards-section {
+	padding: 10px 5%;
+	clear: both;
+}
+
 .awards-list {
 	padding: 10px 5%;
 	clear: both;
@@ -367,6 +372,10 @@ Media queries to handle various device widths
 
 	.education-box {
 		margin: 5px 0;
+	}
+
+	.key-logo {
+		max-width: 400px;
 	}
 
 }
