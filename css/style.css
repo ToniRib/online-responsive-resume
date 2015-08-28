@@ -267,6 +267,10 @@ CLASS STYLES (in order of HTML)
 	clear: both;
 }
 
+.award-entry {
+	padding: 5px;
+}
+
 /* General */
 
 .blue-text {
